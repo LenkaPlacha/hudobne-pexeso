@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <title>Hudobné pexeso</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>🎵 Hudobné pexeso 🎵</h1>
+
+<p id="score">Nájdené dvojice: 0 / 4</p>
+
+<div id="game"></div>
+
+
+<div id="winMessage">
+  <div class="win-box">
+    <div class="blink">😊</div>
+    <h2>Gratulujem!</h2>
+    <p>Našiel si všetky dvojice!</p>
+
+    <button id="playAgainBtn">
+      🎵 Hrať znova
+    </button>
+  </div>
+</div>
+
+<audio id="fanfare" preload="auto">
+  <source src="https://assets.mixkit.co/active_storage/sfx/2018/2018-preview.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
