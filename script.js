@@ -121,7 +121,7 @@ function checkWin() {
         .getElementById("fanfare")
         .play();
 
-    }, 500);
+    }, 200);
 
   }
 }
